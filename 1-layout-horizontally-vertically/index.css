@@ -1,0 +1,30 @@
+body {
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-nav li {
+    width: 100px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+    color: #00A9D9;
+}
+
+.main-dev a:hover {
+    text-decoration: underline;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    /* display: inline-flex;*/
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+}
