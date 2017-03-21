@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #EEC965;
+    display: flex;
+}
+
+.title-1 {
+    background: #DD5F40;
+    width: 200px;
+    /*
+        Applied to individual flex children and not to the flex container
+        Define the optimal size of a child along the flex-direction
+    */
+    flex-basis: 160px;
+}
+
+.title-2 {
+    background: #3D483A;
+}
+
+.title-3 {
+    background: #468E5D;
+}
