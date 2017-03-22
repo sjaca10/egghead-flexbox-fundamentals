@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #EEC965;
+    display: flex;
+}
+
+/* When exists surplus of space, flex-grow defines which proportion an element grow up */
+/*
+.title-1 {
+    background: #DD5F40;
+    width: 200px;
+    flex-basis: 120px;
+    flex-grow: 1;
+}
+
+.title-2 {
+    background: #3D483A;
+    flex-basis: 40px;
+    flex-grow: 2;
+}
+
+.title-3 {
+    background: #468E5D;
+    flex-basis: 100px;
+    flex-grow: 3;
+}
+*/
+
+/* When exists a deficit of space, flex-shrink defines which proportion an element reduce down */
+.title-1 {
+    background: #DD5F40;
+}
+
+.title-2 {
+    background: #3D483A;
+}
+
+.title-3 {
+    background: #468E5D;
+}
+
+h1 {
+    flex-basis: 200px;
+    /* flex-shrink: 0; */
+}
