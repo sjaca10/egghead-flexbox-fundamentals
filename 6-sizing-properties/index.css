@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #EEC965;
+    display: flex;
+}
+
+.title-1 {
+    background: #DD5F40;
+    flex: 1;
+        /*
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0;
+        */
+}
+
+.title-2 {
+    background: #3D483A;
+    flex: 20px;
+        /*
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 20px;
+        */
+}
+
+.title-3 {
+    background: #468E5D;
+    flex: 0 80px;
+        /*
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: 80px;
+        */
+}
+
+h1 {
+    flex-basis: 0;
+}
